@@ -1,0 +1,46 @@
+.container .title{
+color: #ffff;
+font-size: 25px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 20px 0 10px;
+}
+
+.title .query{
+color:#f7d354
+} 
+
+.container-movies{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.container-movies div{
+width: 30%;
+color:  #ffff;
+margin-bottom: 20px;
+display: flex;
+flex-direction:column ;
+justify-content: space-between;
+background-color: #111;
+}
+
+.container-movies img{
+max-width: 100%;
+}
+
+.container-movies div a:hover{
+    background-color: transparent;
+    color: #f7d354;
+}
+.container-movies a{
+    background-color: #111;
+    border:1px solid;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

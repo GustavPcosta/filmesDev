@@ -1,0 +1,43 @@
+
+.naviBar{
+display: flex;
+justify-content: space-between;
+align-items: center ;
+padding: 0 16px;
+background-color: #121212;
+}
+
+.naviBar h2 a{
+display: flex;
+align-items: center;
+gap:5px;
+}
+
+.naviBar form{
+display: flex;
+gap: 5px;
+}
+
+.naviBar input{
+padding:0 16px;
+border-radius: 8px;
+border: none;
+}
+
+.naviBar form button{
+background-color: #f7d354;
+border: 2px solid  #f7d354;
+border-radius: 4px;
+padding: 30px;
+font-size: 13px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+transition: .4s;
+}
+
+.naviBar form button:hover{
+background-color: transparent;
+color:#f7d354;
+}
