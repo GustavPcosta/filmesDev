@@ -10,7 +10,7 @@ function Movies() {
 
     async function filmesDeatils(){
       try {
-        const response = await api.get(`${id}?`);
+        const response = await api.get(`${movie}${id}?`);
         setMovies(response.data);
         console.log(response.data)
       } catch (error) {
